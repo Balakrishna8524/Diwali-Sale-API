@@ -24,22 +24,29 @@ Customers can buy two products and get two products for free as long as the pric
 
 - **Description:** The code processes the items by taking two payable items at a time and then finding two eligible free items (less than the minimum price of the two payable items).
 
-## Implementation Details
 
-Describe any key implementation details here, such as algorithms used, data structures, or important functions/classes.
+## Installation and Setup
 
-## Usage
+Follow these instructions to set up the project locally:
 
-Provide instructions on how to use your code, examples of input and expected output, and any other relevant details for users or developers.
+### Prerequisites
 
-## Contributing
+- PHP >= 8.0
+- Composer (for PHP dependencies)
 
-Explain how others can contribute to your project, guidelines for pull requests, code review process, etc.
+### Step 1: Clone the repository
+Clone the repository to your local machine:
+**git clone <repository url here>**
 
-## License
 
-Specify the license under which your code is distributed.
+### Step 2: Start application
+Goto application folder, and start the application by running artisan command there:
+**php artisan serve**
 
-## Contact
 
-Provide contact information or links to reach out for support, feedback, or issues.
+### Step 3: Test application
+Goto below documentation link and as instructed test the API's:
+**https://documenter.getpostman.com/view/13373910/2sA3XY7yCy**
+
+
+
